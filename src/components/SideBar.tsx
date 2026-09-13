@@ -1,12 +1,5 @@
 import React from 'react';
-
-type Technology = {
-  id: string;
-  name: string;
-  category: string;
-  icon: string;
-};
-
+import type { Technology } from '../types';
 interface SidebarProps {
   stack: Technology[];
   onRemove: (id: string) => void;
