@@ -13,12 +13,12 @@ const App = () => {
   const { technologies, stack, loading, addToStack, removeFromStack, removeAll } = useStack();
 
   return (
-    <div className="min-h-screen bg-gray-50/50 font-sans">
+    <div className="min-h-screen bg-white font-sans">
       <Navbar />
       <Hero />
       
       <main className="px-6 md:px-12 max-w-7xl mx-auto pb-20">
-        <h2 className="text-3xl font-bold text-gray-900 mb-2">Explore the <span className="text-gradient">Technologies</span></h2>
+        <h2 className="text-3xl font-bold text-gray-900 mb-2">Explore the <span className="text-[#cd4eb6]">Technologies</span></h2>
         <p className="text-gray-500 mb-8">Pick one technology per category to build your ideal stack.</p>
 
         <div className="flex flex-col lg:flex-row gap-8">
