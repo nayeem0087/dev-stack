@@ -4,6 +4,7 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100 py-4 px-6 md:px-12 flex justify-between items-center">
       <div className="flex items-center gap-2">
+        <button className="md:hidden text-2xl text-gray-700">☰</button>
         <div>
             <img src={logo} alt="Dev Stack logo" className=' object-contain' />
         </div>
