@@ -1,4 +1,3 @@
-
 import type { Technology } from '../types';
 interface SidebarProps {
   stack: Technology[];
