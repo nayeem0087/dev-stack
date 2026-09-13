@@ -1,4 +1,4 @@
-import React from 'react';
+
 import type { Technology } from '../types';
 interface SidebarProps {
   stack: Technology[];
