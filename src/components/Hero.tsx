@@ -2,8 +2,8 @@ import banner from '../assets/banner-stack.png';
 
 const Hero = () => {
   return (
-    <section className="px-6 md:px-12 py-16">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
+    <section className="py-16">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center gap-12">
         <div className="flex-1 space-y-6">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-gray-900">
             Build Your Ideal <br />
