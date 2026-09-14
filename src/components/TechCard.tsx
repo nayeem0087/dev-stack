@@ -9,7 +9,7 @@ interface TechCardProps {
 
 const TechCard = ({ tech, onAdd, isAdded }: TechCardProps) => {
   return (
-    <div className="bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md transition flex flex-col justify-between cursor-pointer">
+    <div className="bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md transition flex flex-col justify-between ">
       <div>
         <div className="flex justify-between items-start mb-4">
           <img src={tech.icon} alt={tech.name} className="w-10 h-10 object-contain" />
@@ -28,7 +28,7 @@ const TechCard = ({ tech, onAdd, isAdded }: TechCardProps) => {
       <button 
         onClick={() => onAdd(tech)}
         disabled={isAdded}
-        className={`w-full py-2 rounded-lg font-semibold transition ${
+        className={`w-full py-2 rounded-lg font-semibold transition cursor-pointer ${
           isAdded 
             ? 'bg-gray-200 text-gray-500 cursor-not-allowed' 
             : 'bg-gray-900 text-white hover:bg-gray-800'
