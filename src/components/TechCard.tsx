@@ -9,7 +9,7 @@ interface TechCardProps {
 
 const TechCard = ({ tech, onAdd, isAdded }: TechCardProps) => {
   return (
-    <div className="bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+    <div className="bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md transition flex flex-col justify-between cursor-pointer">
       <div>
         <div className="flex justify-between items-start mb-4">
           <img src={tech.icon} alt={tech.name} className="w-10 h-10 object-contain" />
